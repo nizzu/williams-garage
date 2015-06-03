@@ -1,0 +1,171 @@
+body {
+	overflow-x: hidden;
+}
+.footer-copyright {
+	display: none; /* Temporary */
+}
+form.bookingForm input[readonly]{
+	cursor: pointer!important;
+}
+
+input, textarea, select, a {
+    outline: none;
+}
+.amount-charged {
+	margin-top: 15px;
+	display: inline-block;
+}
+.sub_button{
+	cursor: pointer;
+	max-width: 100%;
+	padding: 16px 51px 16px 31px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+	font-weight: 800;
+	background: url(../images/icon-9.png) no-repeat #0e71b8;
+	background-position: 90% 17px;
+	float: right;
+}
+form.bookingForm textarea{
+	background:#FFF!important;
+	color: #7f7f7f;
+	margin-bottom: 15px;
+	height: 100px!important;
+}
+form.bookingForm h3 {
+	margin-top: 40px;
+}
+.passenger_details_part input {
+	text-transform: inherit;
+}
+.spinner{
+	width: 100px;
+	height: 100px;
+	margin:10px auto;
+	margin-top: 100px;
+	background: url('../images/spinner.gif');
+	background-size: 100% 100%;
+}
+.provider_box {
+	background: #FFF;
+	color: #122033;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 15px;
+	min-height: 100px;
+	margin-top: 25px;
+}
+.provider_box h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #122033;
+    margin: 13px 0 27px 0;
+}
+.provider_box h5 {
+    font-size: 20px;
+    text-align: center;
+}
+.provider_box ul.fees {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.provider_box ul.fees li {
+    float: left;
+}
+.provider_box ul.fees li {
+    color: #122033;
+    background: url(../images/icon-15.png) no-repeat left;
+    padding: 0 0 0 25px;
+    margin: 0 10px 0 0;
+    width: 160px;
+    font-size: 14px;
+}
+.centered{
+	text-align: center;
+}
+.select_provider{
+	padding: 11px 10px;
+	width: 157px;
+	background-position: 90% 7px;
+	background-image: none;
+	text-align: center;
+	margin-right: 0;
+}
+div.provider_box .col-xs-6, div.provider_box .col-xs-3{
+	/* padding: 5px 10px; */
+}
+form.bookingForm {
+	color: #FFF;
+}
+.text_search{
+	margin-top: 15px;
+}
+div#map-canvas{
+	margin-top: 69px;
+	height: 310px;
+	border-radius: 0;
+}
+section#results {
+	background: #122033;
+	padding-bottom: 50px;
+	color: #FFF;
+}
+.top_margined {
+	margin-top: 5px;
+}
+.top_margined.sub_button{
+	margin-top: 15px;
+}
+#providers_container,.passenger_details_part,#payment_area{
+	display: none;
+}
+#payment_area #card_type {
+	padding-left: 20px;
+	background: url(../images/icon-10.png) no-repeat right #fff;
+  	
+	background-position: 93% 50%;
+}
+.second_page{
+	display: table;
+	margin: auto;
+}
+div.input_style{
+	background: #FFF;
+	height: 55px;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#return_button .return_container{
+	color: #7f7f7f;
+	padding-top: 2px;
+	font-weight: 700;
+	margin-left: 15px;
+}
+#return_button .return_container .text_container{
+	margin-top: 15px;
+	margin-left: 8px;
+}
+.check_button{
+	background: url('../images/circle_blue.png');	
+	background-size: 30px 30px;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+}
+.checked_permenant,.checked_temp{
+	background: url('../images/check_blue.png');	
+	background-size: 100% 100%;
+}
+.departure_date_container{
+	display: none;
+}
+#ninja_forms_field_5 { background: #122033 !important; padding-left: 31px !important; font-weight: 600 !important; transition: background-color 0.3s ease; }
+#ninja_forms_field_5:hover { background: #fff !important; color: #122033 !important; }
+.ninja-forms-all-fields-wrap label { color: #98c0df !important; font-weight: 600 !important; }
+.ninja-forms-all-fields-wrap textfield, .ninja-forms-all-fields-wrap textarea { color: #7f7f7f !important; padding-left: 31px; }
+#ninja_forms_field_3 { background: #fff !important; height: 80px !important; }
+.page .light a { color: #98c0df; text-decoration: underline; }
